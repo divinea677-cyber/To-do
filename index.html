@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamline Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="todo-card">
+        <header class="todo-header">
+            <h1>Today's Focus</h1>
+            <p id="date-display">Stay organized, stay productive.</p>
+        </header>
+
+        <div class="todo-input-row">
+            <input type="text" id="todo-input" placeholder="Add a new task..." maxlength="40">
+            <button id="add-btn" onclick="addTask()">ADD</button>
+        </div>
+
+        <ul id="todo-list" class="todo-list">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
